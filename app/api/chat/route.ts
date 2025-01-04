@@ -43,7 +43,7 @@ export async function POST(req: Request) {
       const docsMap = documents?.map((doc) => doc.text);
 
       docContext = JSON.stringify(docsMap);
-    } catch (e) {
+    } catch  {
       return new Response("Internal server error collection", { status: 500 });
     }
 
