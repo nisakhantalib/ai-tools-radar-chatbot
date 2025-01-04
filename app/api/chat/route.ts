@@ -72,7 +72,7 @@ export async function POST(req: Request) {
     const stream = OpenAIStream(response);
     return new StreamingTextResponse(stream);
     // return new streamText.toDataStreamResponse(stream);
-  } catch (e) {
+  } catch {
     return new Response("Internal server error embedding", { status: 500 });
   }
 }
