@@ -143,10 +143,12 @@ The app is deployable on **Vercel**:
 
 ---
 
-## Credits
+## Credits  
+
 This project is based on a course by **Ana Kubo** and sponsored by **DataStax**.
 Based on this course "Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI"  
 https://www.youtube.com/watch?v=d-VKYF4Zow0
+
 ---
 
 Feel free to use and modify this template as needed. Let me know if you want specific adjustments! 😊
