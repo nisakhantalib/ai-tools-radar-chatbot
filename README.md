@@ -1,19 +1,3 @@
-Based on this course "Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI"  
-https://www.youtube.com/watch?v=d-VKYF4Zow0
-```
-1. npm install 
-2. npm install react@18 react-dom@18 --legacy-peer-deps
-3. npm audit fix 
-4. npm i puppeteer 
-5. npm fund 
-6.  npm run seed        
-7. npm run dev 
-
-```
-Here's an example of a detailed README file for a GitHub repository based on the content you've provided:
-
----
-
 # F1 GPT RAG Chatbot
 
 ## Overview
@@ -93,8 +77,22 @@ npm run seed
 ```bash
 npm run dev
 ```
-Access the application at `http://localhost:3000`.
+Access the application at `http://localhost:3000`.  
 
+Or, we can do
+
+
+```bash
+# Steps to Set Up and Run the Project
+
+npm install 
+npm install react@18 react-dom@18 --legacy-peer-deps
+npm audit fix 
+npm i puppeteer 
+npm fund 
+npm run seed        
+npm run dev
+```
 ---
 
 ## Usage
@@ -147,7 +145,8 @@ The app is deployable on **Vercel**:
 
 ## Credits
 This project is based on a course by **Ana Kubo** and sponsored by **DataStax**.
-
+Based on this course "Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI"  
+https://www.youtube.com/watch?v=d-VKYF4Zow0
 ---
 
 Feel free to use and modify this template as needed. Let me know if you want specific adjustments! 😊
