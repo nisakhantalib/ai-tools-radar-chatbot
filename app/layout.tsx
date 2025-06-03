@@ -2,8 +2,8 @@
 import "./global.css";
 
 export const metadata = {
-    title: "UFCGPT",
-    description: "UFCGPT - UFCG Programming Tournament",
+    title: "AI Radar Tool ",
+    description: "AI GPT - providing up-to-date information on AI tools, prompt engineering, and LLM frameworks.",
 }
 
 const Rootlayout = ({ children }) => {

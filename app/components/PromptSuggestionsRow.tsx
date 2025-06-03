@@ -2,9 +2,9 @@ import PromptSuggestionButton from "./PromptSuggestionButton";
 
 const PromptSuggestionRow = ({ onPromptClick }) => {
     const prompts = [
-        "Who won the 2020 UFC World Championship?",
-        "Who is the youngest UFC World Champion?",
-        "Who is the newest UFC World Champion?"
+        "What is LangGraph and how is it used?",
+  "How does LlamaIndex handle document chunking?",
+  "What's the difference between LangChain and LlamaIndex?"
     ];
 
     return(

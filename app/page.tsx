@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import f1GPTLogo from "./assets/f1GPTLogo.jpg";
+import logo from "./assets/logo.jpg";
 import { useChat } from "ai/react";
 import { Message } from "ai";
 import Bubble from "./components/Bubble";
@@ -28,12 +28,12 @@ const Home = () => {
   };
   return (
     <main>
-      <Image src={f1GPTLogo} width="250" alt="F1 GPT Logo" />
+      <Image src={logo} width="250" alt="logo" />
       <section className={noMessages ? "" : "populated"}>
         {noMessages ? (
           <>
             <p className="starter-text">
-              Welcome to UFC GPT! Ask me anything about Formula 1 and I will do my
+              Welcome to AI Radar GPT! Ask me anything about AI and I will do my
               best to help you.
             </p>
             <br />
