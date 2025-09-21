@@ -26,9 +26,6 @@ It leverages **Retriever-Augmented Generation (RAG)** with **LangChain.js**, **N
 4. [Usage](#usage)  
 5. [Features Explained](#features-explained)  
 6. [Folder Structure](#folder-structure)  
-7. [Deployment](#deployment)  
-8. [Credits](#credits)  
-
 ---
 
 ## ✅ Prerequisites
@@ -140,23 +137,5 @@ ai-tools-radar-chatbot/
 ├── package.json        # Project setup
 └── README.md           # Project documentation
 ```
-
----
-
-## 🌐 Deployment
-
-Deploy to **Vercel**:
-
-1. Push your repo to GitHub  
-2. Connect it to Vercel  
-3. Add the same environment variables in the Vercel dashboard  
-4. Deploy and share the link in your portfolio
-
----
-
-## 🙏 Credits
-
-Originally inspired by a course by **Ana Kubo** and sponsored by **DataStax**.  
-Built on top of “Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Vercel, OpenAI.”  
 
 ---
