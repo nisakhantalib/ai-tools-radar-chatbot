@@ -53,7 +53,7 @@ It leverages **Retriever-Augmented Generation (RAG)** with **LangChain.js**, **N
 ### Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/ai-tools-radar-chatbot.git
+git clone https://github.com/nisakhantalib/ai-tools-radar-chatbot.git
 cd ai-tools-radar-chatbot
 ```
 
